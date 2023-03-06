@@ -16,16 +16,15 @@
 
     - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
 
-```
+> **Note**
 If one is able to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.
-```
+
 
 
 ## Conclusions
 
-```
+> **Note**
 Based on the analysis we have come to this conclusion the following variables are the most influencial on the loan_status variable.
-```
 
 1. term - More defaults were found for loans with 60 months term than loans with 36 months term.
 
@@ -37,7 +36,7 @@ Based on the analysis we have come to this conclusion the following variables ar
 
 5. purpose - people with small business and renewable energy tend to default more.
 
-6. loan_amnt - As the loan amount increases the number of defaults also increases. 
+6. annual_income - high % of borrowers with low income (<40k) were unable to pay the loans. 
 
 
 
